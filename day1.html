@@ -1,68 +1,97 @@
 <!DOCTYPE html>
+
 <head>
-<style>
-    .name-input{  
-    padding: 12px;
-    margin: 10px;
-    width:300px;
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     
-    }
+    <style>
+        .name-input {
+            padding: 12px;
+            margin: 10px;
+            width: 300px;
+            border-radius: 1px;
 
-    .Phone{
-        padding: 12px;
-    margin: 10px;
-    width:300px;
-    border-radius: 1px;
-    }
+        }
 
-    .Pincode{
-    padding: 12px;
-    margin: 10px;
-    width:300px;
-    border-radius: 1px;
-    }
+        .Phone {
+            padding: 12px;
+            margin: 10px;
+            width: 300px;
+            border-radius: 1px;
+        }
 
-    .variant{
-     padding: 12px;
-    margin: 10px;
-    width:300px;
-    border-radius: 1px;
-    }
+        .Pincode {
+            padding: 12px;
+            margin: 10px;
+            width: 300px;
+            border-radius: 1px;
+        }
 
-.button{
-    padding: 12px;
-    margin: 10px;
-    width:327px;
-    border-radius: 4px;
-    background-color: #181d22;
-    color: #fff;
-    height: 56px;
-}
+        .variant {
+            padding: 12px;
+            margin: 10px;
+            width: 300px;
+            border-radius: 1px;
+        }
 
+        .button {
+            padding: 12px;
+            margin: 10px;
+            width: 300px;
+            border-radius: 4px;
+            background-color: #181d22;
+            color: #fff;
+            height: 56px;
+        }
 
-
-    
-
-</style>
+        .body {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+        .first{
+            display:flex;
+            justify-content: center;
+            margin-bottom:20px;
+        }
+    </style>
 </head>
 
 <body>
-<h2>Leaving so soon?</h2>
-<p>we've got some exciting offers exclusively for you. Share your details and get your hands on it.</p>
 
-<div><input class ="name-input" type="text" placeholder="Name"></input></div>
+    <div class="first">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4q0Ek5r-0jySgkOF2hmdp1La6Co93oUvfyw&s">
+    </div>
 
-<div><input class="Phone"  type="number" placeholder="Phone Number"></input></div>
+    <div class="body">
 
-<div><input   class ="Pincode" type="Pincode"  placeholder="Pincode"></input></div>
+        <div class="row">
 
-<div><input class="variant" type="select" placeholder="select variant"></input></div>
+            <div class="col">
+                <img src="https://rapido-app-assets-staging.storage.googleapis.com/7bfb291ed6fd8fef3949b695f66f0441_1738146457741.webp" width="500px" height="500px">
+            </div>
 
-<div><button class="button">I am Interested</button></div>
+            <div class="col">
+                <h2>Leaving so soon?</h2>
 
-<p>By subscribing you agree with the terms and conditions of ola</p>
+                <p>we've got some exciting offers exclusively for you. Share your details and get your hands on it.</p>
 
+                <div><input class="name-input" type="text" placeholder="Name"></input></div>
 
+                <div><input class="Phone" type="number" placeholder="Phone Number"></input></div>
+
+                <div><input class="Pincode" type="Pincode" placeholder="Pincode"></input></div>
+
+                <div><input class="variant" type="select" placeholder="select variant"></input></div>
+
+                <div><button class="button">Log in</button></div>
+
+                <p>By subscribing you agree with the terms and conditions of Rapido</p>
+            </div>
+
+        </div>
+    </div>
 </body>
 
 
