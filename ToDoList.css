@@ -1,0 +1,29 @@
+h3{
+    font-family: monospace;
+    font-size: 30px;
+    padding-top:10px;
+    margin-left: 30px;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    gap:20px;
+    padding-top: 20px;
+    padding-left: 10px;
+    
+}
+.sec{
+    background-color: rgb(122, 220, 200);
+    height: 600px;
+    width: 400px;
+    flex-shrink: 0;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.div{
+    background-color: antiquewhite;
+}
